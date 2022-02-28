@@ -2,16 +2,18 @@
  import './App.css';
  //import components
  import Aboutme from './components/pages/Aboutme';
- import Portfolio from './components/pages/Portfolio';
+ import Portfolio from './components/pages/Portfolio'
+ import Navbar from './components/Navbar';
  
 
 function App() {
   return (
     <div className="App">
     {/* <h1> like such a big smurfy nerd</h1> */}
-    <div className="home">
+    <div className="Navbar">
     <Aboutme />
     <Portfolio/>
+    <Navbar/>
     </div>
     </div>
   );
