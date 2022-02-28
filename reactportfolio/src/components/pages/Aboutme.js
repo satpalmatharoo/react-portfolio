@@ -2,6 +2,14 @@ import React from "react";
 
 const Aboutme = () => (
     <aboutme>
+
+        <div>
+            <h1 className="header">
+                <span> About Me!</span>
+            </h1>
+            <div id> "about-header"</div>
+
+        
         <p>
         Positive and energetic outlook which is probably why I love problem solving. Currently enrolled 
         on a full stack web developer course accredited by theUniveristy of Birmingham, 
@@ -11,6 +19,8 @@ const Aboutme = () => (
         <p>
         Adaptable and fun
         </p>
+
+        </div>
     </aboutme>
 
     
