@@ -1,4 +1,4 @@
-.Navbar {
+/* .Navbar {
   min-height: 100vh;
   background-color: rgb(24, 24, 44);
   color:white;
@@ -8,17 +8,21 @@
     justify-content: space-around;
   padding-top: 25px;
   
-}
+} */
 
 
 
 
 
-/* .App {
+.App {
+  display: flex;
   text-align: center;
+  list-style: none;
+  padding: top 30px;
+  justify-content: space-around;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
