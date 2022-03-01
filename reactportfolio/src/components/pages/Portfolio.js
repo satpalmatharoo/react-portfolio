@@ -1,4 +1,6 @@
 import React from "react";
+import project4 from "../assets/project4.png";
+import ReadmeGenerator from "../assets/ReadmeGenerator.png";
 
 const Portfolio = () => (
     <section>
@@ -22,7 +24,7 @@ const Portfolio = () => (
                     <a class="live link"href="https://watch.screencastify.com/v/m2S0C3kUJAHGpyNlOmmI">LIVE</a></p>
                     </div>
             <div class="project-card">
-                <img class="project-image" src="Assets\Readme Generator.png" alt="project two image"/>
+            <img src={ReadmeGenerator} className="imgstyling" alt="ReadmeGenerator img" />
                 <h3>README GENERATOR</h3>
                 <p class = "subtext"> NODE js Command Line </p>
                 <hr/>
@@ -30,7 +32,7 @@ const Portfolio = () => (
                 <a class="live link"href="https://drive.google.com/file/d/1TAWB-_ezxURLw5JqF2SmlGKWcuVDC2LA/view">LIVE</a> 
             </div>
             <div class="project-card">
-                <img class="project-image" src="Assets\project 4.png" alt="project three image"/>
+                <div className="project-image" style={{ backgroundImage: `url(${project4})`}} alt="project three image"/>
                 <h3>RSV MOTIVATION</h3>
                 <p class = "subtext"> API and Jquery</p>
                 <hr/>
