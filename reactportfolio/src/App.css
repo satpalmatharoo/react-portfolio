@@ -13,7 +13,7 @@
 a.nav-link{
   text-decoration:none;
   font-size: 20px;
-  color:gray;
+  color:black;
   text-align: centre
   
 }
@@ -36,7 +36,7 @@ a.nav-link{
   list-style: none;
   padding: top 30px;
   justify-content: space-around;
-  background-color: rgb(24, 24, 44); 
+  background-color: rgb(104, 140, 180); 
 }
 
 @media only screen and (max-width: 1000px) {
