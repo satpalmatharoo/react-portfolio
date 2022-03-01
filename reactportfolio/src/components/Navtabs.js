@@ -13,7 +13,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                   currentPage === "Aboutme" ? "nav-link active" : "nav-link"
                 }
               >
-                Aboutme sleep pal 
+                Aboutme 
               </a>
           </div>
       
@@ -27,7 +27,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                   currentPage === "Portfolio" ? "nav-link active" : "nav-link"
                 }
               >
-                character bio
+                Portfolio
               </a>
           </div>
           <div className="navtab">
@@ -48,6 +48,9 @@ function NavTabs({ currentPage, handlePageChange }) {
   );
 }
 export default NavTabs;
+
+
+
 
 
 
