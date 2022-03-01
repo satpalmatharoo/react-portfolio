@@ -14,10 +14,14 @@ Personal Portfolio of works built using React showcasing personal projects.
 Navigate to root file Portfolio
 Run `npm i`
 
-
 ## Usage
 
 Navigate to Portfolio Root
 Run `npi start`
 
 ## Screenshots
+
+Contact
+
+Email: Satpalmatharoo@hotmail.co.uk
+Github: satpalmatharoo
