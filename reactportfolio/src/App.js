@@ -28,13 +28,7 @@ function App() {
     <div className="App">
       <NavTabs
       currentPage={pg} handlePageChange={handlePageChange}/>
-    <h1> Aboutme</h1>
-    <h1> Aboutme</h1>
-    <div className="Navbar">
-    <Aboutme />
-    <Portfolio/>
-    <Navbar/> 
-  </div>
+  
     {renderPage()}
     </div>
   );
