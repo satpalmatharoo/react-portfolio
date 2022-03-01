@@ -18,6 +18,11 @@ a.nav-link{
   
 }
 
+.imgstyling{
+  width:400px;
+  height: 400px;
+}
+
 .socials {
   color: black;
   margin: 20px
@@ -31,6 +36,14 @@ a.nav-link{
   list-style: none;
   padding: top 30px;
   justify-content: space-around;
+  background-color: rgb(24, 24, 44); 
+}
+
+@media only screen and (max-width: 1000px) {
+  .container-project { 
+      display: flex;
+      flex-wrap: wrap;
+  }
 }
 
 /* .App-logo {
