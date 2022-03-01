@@ -1,20 +1,41 @@
 // import logo from './logo.svg';
- import './App.css';
+import React, {useState} from "react";
+import './App.css';
  //import components
- import Aboutme from './components/pages/Aboutme';
+ import Aboutme from './components/pages/Aboutme'
+ import Contactme from './components/pages/Contactme'
  import Portfolio from './components/pages/Portfolio'
  import Navbar from './components/Navbar';
- 
+ import NavTabs from './components/Navtabs';
 
 function App() {
+  const [pg, setCurrentPG] = useState(`Aboutme`);
+  const renderPage = () => {
+    if (pg === "Aboutme") {
+      return <Aboutme />;
+    }
+    if (pg === "Contactme") {
+      return < Contactme/>;
+    }
+    if (pg === "Portfolio") {
+      return <Portfolio />;
+
+    }
+  };
+
+  const handlePageChange = (page) => setCurrentPG(page);
   return (
     <div className="App">
-    {/* <h1> like such a big smurfy nerd</h1> */}
+      <NavTabs
+      currentPage={pg} handlePageChange={handlePageChange}/>
+    <h1> Aboutme</h1>
+    <h1> Aboutme</h1>
     <div className="Navbar">
     <Aboutme />
     <Portfolio/>
-    <Navbar/>
-    </div>
+    <Navbar/> 
+  </div>
+    {renderPage()}
     </div>
   );
 }
